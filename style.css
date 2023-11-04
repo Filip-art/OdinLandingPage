@@ -109,23 +109,24 @@ button {
     color: #676868;
 }
 
-
-/* 
-.icon-container {
+.quote-container {
+    height: 310px;
+    background-color: #E5E7EB;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 40px;
-}
-
-.text-container {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
 }
 
-.text-container p {
-    font-size: 12px;
-    width: 90px;
-} */
+.quote-text-container {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    /* text-align: center; */
+    width: 60%;
+}
+
+#quoteAuthor {
+    font-weight: bold;
+    padding-left: 400px;
+}
