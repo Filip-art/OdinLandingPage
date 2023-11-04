@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: black;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .container-info {
-
+    background-color: #E5E7EB;
     height: 370px;
 
 }
@@ -110,8 +111,8 @@ button {
 }
 
 .quote-container {
-    height: 310px;
-    background-color: #E5E7EB;
+    height: 370px;
+    background-color: #c8ccdb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,4 +130,39 @@ button {
 #quoteAuthor {
     font-weight: bold;
     padding-left: 400px;
+}
+
+.sign-up-container {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+}
+
+.sign-up-box {
+    color: white;
+    background: #3882F6;
+    padding: 30px 70px;
+    display: flex;
+    gap: 80px;
+    border-radius: 10px;
+}
+
+.sign-up-box button {
+    border: 1px solid white;
+    padding: 0px 20px;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: rgb(156, 156, 156);
+}
+
+footer p {
+    padding: 20px;
 }
