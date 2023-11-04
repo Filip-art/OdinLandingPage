@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    font-family: Roboto, sans-serif;
     background-color: black;
     max-width: 1000px;
     margin: 0 auto;
@@ -103,10 +106,10 @@ button {
 }
 
 .each-box p {
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
     /* margin-top: 10px; */
-    width: 90px;
+    width: 110px;
     color: #676868;
 }
 
@@ -128,6 +131,7 @@ button {
 }
 
 #quoteAuthor {
+    margin-top: 10px;
     font-weight: bold;
     padding-left: 400px;
 }
