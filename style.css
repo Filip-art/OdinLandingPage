@@ -41,8 +41,8 @@ body {
 
 .containerunderheader img {
     max-width: 300px;
-    padding-left: 92px;
     border-radius: 5%;
+    margin-left: 90px;
 }
 
 .containerunderheader section {
@@ -60,44 +60,44 @@ body {
 .containerunderheader p {
     margin-bottom: 10px;
     color: #E5E7EB;
-}<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="logo">
-            <h2>Header Logo</h2>
-        </div>
+}
 
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
+.container-info {
 
-      </header>
+    height: 370px;
 
-      <div class="containerunderheader">
-        <section>
-            <h1>
-                This website is awesome
-            </h1>
-            <p>
-                This website has some subtext that goes here under the main title. Its a smaller font
-                and the color is lower contrast
-            </p>
-            <button>Sign me up</button>
-        </section>
+}
 
-        <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tfGVufDB8fDB8fHww" alt="a banana">
-      </div>
+.container-info h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #1F2937;
+    font-size: 36px;
+}
 
-    </div>
-  </body>
-</html>
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.text-container p {
+    font-size: 12px;
+    width: 90px;
+}
